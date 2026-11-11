@@ -1,16 +1,75 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# React Card and Button Components
 
-Currently, two official plugins are available:
+## Project Description
+A simple React application demonstrating reusable components and props passing between components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application displays user information in individual cards, including name, email, and a custom button. Each button triggers an event handler and displays the corresponding user's name.
 
-## React Compiler
+## Features
+- Reusable Card component
+- Reusable Button component
+- Dynamic button labels using props
+- Passing data between components using props
+- Passing event handlers from parent to child components
+- Displaying user details dynamically
+- Button click events using callback functions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite (if used)
 
-## Expanding the Oxlint configuration
+## Project Structure
+```text
+src/
+├── components/
+│   ├── card/
+│   │   └── Card.jsx
+│   └── button/
+│       └── Button.jsx
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd YOUR_PROJECT_NAME
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the application in your browser using the URL provided by Vite.
+
+## Learning Objectives
+- Understanding React functional components
+- Understanding props in React
+- Creating reusable components
+- Passing functions as props
+- Handling button click events
+- Component composition
+
+## Author
+**Ciril Arockiaraj S**
+
+- GitHub: https://github.com/cirilarockiaraj
+- LinkedIn: https://linkedin.com/in/ciril-arockiaraj-s
